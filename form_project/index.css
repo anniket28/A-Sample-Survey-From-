@@ -1,0 +1,58 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(255, 255, 0, 0.466);
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+form{
+    background-color: rgb(228, 228, 228);
+    margin: 10px 10px;
+    padding: 30px 10px;
+    font-size: 18px;
+}
+input[type="text"]{
+    font-size: 15px;
+    width: 91%;
+    padding: 10px 10px;
+}
+input[type="email"]{
+    font-size: 15px;
+    width: 92%;
+    padding: 10px 10px;
+}
+input[type="number"]{
+    font-size: 15px;
+    width: 88%;
+    padding: 10px 10px;
+}
+input[type="radio"]{
+    padding: 10px 10px;
+}
+select{
+    font-size: 15px;
+    padding: 5px 5px;
+}
+#tc{
+    padding: 10px 10px;
+}
+input[type="submit"],
+input[type="reset"]{
+    padding: 5px 5px;
+    margin: 3px 3px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    width: 49.4%;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+}
+input[type="reset"]:hover{
+    background-color: blue;
+}
+

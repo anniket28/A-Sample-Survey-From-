@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>SURVEY FORM</h1>
+    <form action="">
+        <label class="all" for="fn"><p>First Name:* <input type="text" name="fname"  id="fn" required></p></label>
+        <label class="all" for="ln"><p>Last Name:* <input type="text" name="lname" id="ln" required></p></label>
+        <p>Gender:* <label class="alone" for="male"><input type="radio" name="g" id="male">Male</label> <label for="female"><input type="radio" name="g" id="female">Female</label></p required>
+        <label for="a">
+            <p>Age:*
+                <select name="age" id="a">
+                    <option value="">--Select your Age--</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="24">25</option>
+                    <option value="NLA">None of above</option>
+                </select>
+            </p>
+        </label>
+        <label class="all" for="e">
+            <p>Email Id:* <input type="email" name="email" id="e" required></p> 
+        </label>
+        <label class="all" for="c">
+            <p>Contact Number:* <input type="number" name="contact" id="c" required placeholder="10 digit contact number"></p>
+        </label>
+            <p class="alone">Select the things you like:*
+                <input class="sel" type="checkbox" name="things" id="ch">Workout
+                <input class="sel" type="checkbox" name="things" id="ch">Study
+                <input class="sel" type="checkbox" name="things" id="ch">Cricket
+                <input class="sel" type="checkbox" name="things" id="ch">Other 
+            </p required>
+        <label class="alone" for="tc">
+            <p><input type="checkbox" name="tandc" id="tc" checked required>I agree to the <a href="#" style="text-decoration: none;">terms and conditions</a>.</p>
+        </label>
+        <input type="submit" value="Sumbit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
